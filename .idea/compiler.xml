@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="knight-xxl-job-executor-sample-frameless" />
+        <module name="knight-xxl-job-admin" />
+        <module name="knight-xxl-job-core" />
+        <module name="knight-xxl-job-executor-sample-springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="knight-xxl-job-executor-sample-springboot-ai" target="17" />
+      <module name="knight-xxl-job-executor-samples" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="knight-xxl-Job" options="" />
+      <module name="knight-xxl-job-admin" options="" />
+      <module name="knight-xxl-job-core" options="" />
+      <module name="knight-xxl-job-executor-sample-frameless" options="" />
+      <module name="knight-xxl-job-executor-sample-springboot" options="" />
+      <module name="knight-xxl-job-executor-sample-springboot-ai" options="-parameters" />
+      <module name="knight-xxl-job-executor-samples" options="" />
+    </option>
+  </component>
+</project>
